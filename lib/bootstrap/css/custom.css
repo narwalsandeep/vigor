@@ -1,0 +1,178 @@
+body{
+   	color: #444;
+	padding-top: 40px;
+	font-weight: 300;
+   	background-image:url(../../../res/bg/5.png);
+	background-attachment: fixed;
+	font-family: 'Roboto', sans-serif;
+}
+.container{
+}
+hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.nopad{
+	padding: 0px;
+	margin: 0px;
+}
+.white-panel,.border-panel{
+	background-color:#fff;
+	border:1px solid #efefef;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom:10px;
+	color:#444;
+	font-size: 14px;
+	letter-spacing: 1px;
+	/*-webkit-box-shadow:0 1px 2px rgba(0, 0, 0, .25);
+	-moz-box-shadow:0 1px 2px rgba(0,0,0,.25);
+	box-shadow:0 1px 2px rgba(0, 0, 0, .25);
+	*/
+}
+.lead{
+	color: #000;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 300px;
+}
+.border-panel{
+   background-color:#f6f6f6;
+	
+}
+.center{
+    text-align:center;
+} 
+.alert{
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+}
+
+h1,h2,h3,h4,h5{
+  	font-weight: 100;
+	color: #47adcb;
+	margin-top: 2px;
+}
+h2{
+	font-size: 45px;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+h3{
+	font-size: 30px;
+	letter-spacing: 1px;
+}
+h1{
+	font-size: 40px;
+	font-family: 'Bevan', cursive;
+ 	line-height: 50px;
+}
+.carousel{
+	margin: 0px;
+}
+.carousel-inner > .item {
+	height: 300px;
+}
+.carousel-caption{
+  background: #999;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.carousel-caption h1{
+	color: #47adcb;
+	font-size: 42px;
+	line-height: 40px;
+}
+
+.footer-links{
+	padding: 10px;
+	font-size: 12px;
+}
+
+.navbar-inverse .brand{
+	font-size: 22px;
+	padding: 10px;
+	color: #fff;
+ 	margin-bottom: 0px;
+	font-family: 'Bevan', cursive;
+}
+.navbar-inverse .nav > li > a {
+	color: #ddd;
+	font-weight: 200;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+a{
+   	color: #47adcb;
+   	font-size: 14px;
+}
+.small{
+	font-size: 12px;
+}
+.blue{
+   	color: #47adcb;
+}
+.pink{
+	color:#fb4282;
+}
+.gray{
+   	color: #777;
+}
+.green{
+   	color: #77dfac;
+}
+.red{
+   	color: #f07e7b;
+}
+.bold{
+	font-weight: bold;
+}
+.white{
+	color:#fff;
+}
+.black{
+	color: #000;
+}
+.table-condensed td{
+	padding: 1px 4px 1px 4px;
+}
+
+.popover{
+   width: 290px !important;
+}
+/*
+
+.popover-title,.popover-content{
+	font-size: 12px;
+	padding: 4px;
+}
+.popover-mini{
+	width:60px;
+	padding:1px;
+	height:20px;
+	font-size:10px;
+}
+
+*/
+.underline{
+	text-decoration: underline;
+}
+.pad40{
+	padding: 40px;
+}
+.margin20{
+	margin: 20px;
+}
+
+/*
+======== repsonsive fixes==========
+*/
+@media (max-width: 979px) {
+	body{
+		padding-top: 0px;		
+	}
+}
+

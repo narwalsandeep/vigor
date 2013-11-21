@@ -1,0 +1,44 @@
+<div class='span12 center white-panel'>
+
+	<h3>
+		Login.
+	</h3>
+	<br>
+	
+	<div class='row-fluid'>
+		
+		<form  method='post' action='<?=HTTP.WWW_ROOT?>/login/auth'>		
+		<?php
+			if($this->err){
+				echo "<div class='alert alert-error'>{$this->err}<button type='button' class='close' data-dismiss='alert'>&times;</button></div>";
+			}
+		?>
+			<p><input type="text" name='username' required placeholder="Username … ">	
+			<br><input type="password" name='password' required  placeholder="Password … "></p>
+			<button type="submit" class="btn btn-info"> Login <i class="icon icon-arrow-right icon-white"></i> </button>
+			<br><br>
+			<a href='' class='small gray'>Forgot Password?</a>
+			<a href='<?=HTTP.WWW_ROOT?>/visitor/register' class='small blue'>Dont have An Account?</a>
+			
+		</form>
+		
+	</div>
+
+</div>
+
+<script>
+	navigator.geolocation.getCurrentPosition(function(position){
+		lat = position.coords.latitude;
+  		long = position.coords.longitude; 
+		
+		$.ajax({
+			url: "<?=HTTP.WWW_ROOT?>/ajax/set-current-location/lat/"+lat+"/long/"+long, 
+			dataType: 'json',
+			error: function(xhr_data) {},
+			success: function(xhr_data){},
+			contentType: 'application/json'
+		});
+		
+	});
+</script>
+
